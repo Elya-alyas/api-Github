@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: black;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search {
+    background-image: linear-gradient(120deg, rgba(122, 249, 215, 0.9), rgba(34, 210, 160, 0.9), rgba(12, 150, 111, 0.9), rgba(8, 97, 79, 0.9), black 50%);
+    padding: 5px 15px;
+    margin-top: 15px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(243, 239, 247);
+    box-shadow: 0 0 20px #1bd0b2;
+    border-radius: 60px;
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+#search:hover {
+    background-position: right center;
+    color: #afe0e6;
+    text-decoration: none;
+    background: #063735;
+    transform: scale(1.1);
+}
+
+#inp {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 55px;
+    background: transparent;
+    border: none;
+    border-bottom: 5px 10px #f3e8e8;
+    box-shadow: 2px 2px 20px 5px rgb(35, 205, 179);
+    color: #09a19c;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+#inp::placeholder {
+    color: #2de8d6;
+    font-size: 25px;
+    background: #042b29;
+}
+
+.output {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.card {
+    margin-top: 40px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    box-shadow: gray;
+    border-radius: 95px 95px;
+    box-shadow: 2px 2px 20px 5px rgb(130, 129, 129);
+
+}
+
+.informationUsers {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 70px;
+
+    width: 60%;
+    box-shadow: gray;
+    border-radius: 95px 95px;
+    box-shadow: 2px 2px 20px 5px rgb(130, 129, 129);
+}
+
+img {
+    margin-top: 150px;
+    border-radius: 250px 250px;
+    width: 300px;
+    height: 300px;
+    -webkit-box-shadow: 0px 0px 105px 45px rgba(45, 255, 196, 0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgba(45, 255, 196, 0.9);
+    box-shadow: 0px 0px 105px 45px rgba(45, 255, 196, 0.9);
+}
+
+h1 {
+    align-items: center;
+    background-image: linear-gradient(160deg, rgba(122, 249, 215, 0.9), rgba(34, 210, 160, 0.9), black 50%);
+    background-repeat: no-repeat;
+    background-size: 0% 1em;
+    background-position: 0 1%;
+    transition: background-size 0.25s ease-in;
+    padding-top: 15px;
+    text-align: end;
+    font-size: 60px;
+    color: rgb(243, 239, 247);
+    text-shadow: 2px 5px 10px #168987;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1:hover {
+    background-size: 100% 100% !important;
+    transform: scale(1.1);
+
+}
+
+
+
+h2 {
+    align-items: center;
+    font-size: 30px;
+    margin-top: 70px;
+    background-image: linear-gradient(160deg, rgba(122, 249, 215, 0.9), rgba(34, 210, 160, 0.9), rgba(8, 97, 79, 0.9), black 50%);
+    background-repeat: no-repeat;
+    background-size: 0% 1em;
+    background-position: 0 2%;
+    transition: background-size 0.25s ease-in;
+    text-align: start;
+    color: rgb(243, 239, 247);
+    text-shadow: 2px 5px 10px #168987;
+    margin-top: 85px;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2:hover {
+    background-size: 100% 100% !important;
+    transform: scale(1.1);
+
+}
+
+
+h3 {
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    background-image: linear-gradient(160deg, rgba(122, 249, 215, 0.9), rgba(34, 210, 160, 0.9), rgba(8, 97, 79, 0.9), black 50%);
+    background-repeat: no-repeat;
+    background-size: 0% 1em;
+    background-position: 0 1%;
+    transition: background-size 0.25s ease-in;
+    text-align: left;
+    color: rgb(243, 239, 247);
+    text-shadow: 2px 5px 10px #168987;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3:hover {
+    background-size: 100% 88% !important;
+    transform: scale(1.1);
+}
